@@ -1,4 +1,4 @@
-// import { User } from "./User";
+import { User } from "./User";
 // import { Company } from "./Company";
 import { CustomMap } from "./CustomMap";
 
@@ -10,5 +10,8 @@ googleMapsScript.setAttribute("src", googleMapsSrc);
 document.body.appendChild(googleMapsScript);
 
 googleMapsScript.onload = function () {
+  const user = new User();
   const customMap = new CustomMap("map");
+
+  customMap.addUserMarker(user);
 };
