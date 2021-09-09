@@ -16,6 +16,9 @@
     "url": "https://github.com/JMLamodiere/maps/issues"
   },
   "homepage": "https://github.com/JMLamodiere/maps#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  },
   "devDependencies": {
     "typescript": "^4.4.2"
   }
