@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JMLamodiere/maps#readme",
   "dependencies": {
+    "@types/faker": "^5.5.8",
     "faker": "^5.5.3"
   },
   "devDependencies": {
