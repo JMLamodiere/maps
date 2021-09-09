@@ -1,4 +1,21 @@
 {
+  "name": "maps",
+  "description": "See https://www.udemy.com/course/typescript-the-complete-developers-guide/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMLamodiere/maps.git"
+  },
+  "author": "Jean-Marie Lamodière",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JMLamodiere/maps/issues"
+  },
+  "homepage": "https://github.com/JMLamodiere/maps#readme",
   "devDependencies": {
     "typescript": "^4.4.2"
   }
