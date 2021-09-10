@@ -2,12 +2,15 @@ import { User } from "./User";
 import { Company } from "./Company";
 import { CustomMap } from "./CustomMap";
 
-const googleMapsSrc: string =
-  "https://maps.googleapis.com/maps/api/js?key=" +
-  process.env.GOOGLE_UDEMY_TS_KEY;
-const googleMapsScript = document.createElement("script");
-googleMapsScript.setAttribute("src", googleMapsSrc);
-document.body.appendChild(googleMapsScript);
+const googleMapsScript = (function () {
+  const src =
+    "https://maps.googleapis.com/maps/api/js?key=" +
+    process.env.GOOGLE_UDEMY_TS_KEY;
+  const script = document.createElement("script");
+  script.setAttribute("src", src);
+  document.body.appendChild(script);
+  return script;
+})();
 
 googleMapsScript.onload = function () {
   const user = new User();
