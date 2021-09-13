@@ -1,5 +1,5 @@
 {
-  "name": "maps",
+  "name": "ts-maps",
   "description": "See https://www.udemy.com/course/typescript-the-complete-developers-guide/",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JMLamodiere/maps.git"
+    "url": "git+https://github.com/JMLamodiere/ts-maps.git"
   },
   "author": "Jean-Marie Lamodière",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JMLamodiere/maps/issues"
+    "url": "https://github.com/JMLamodiere/ts-maps/issues"
   },
-  "homepage": "https://github.com/JMLamodiere/maps#readme",
+  "homepage": "https://github.com/JMLamodiere/ts-maps#readme",
   "dependencies": {
     "@types/faker": "^5.5.8",
     "@types/google.maps": "^3.45.6",
